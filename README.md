@@ -49,8 +49,6 @@ Every repository below is a complete, runnable project with tests, a Dockerfile 
 | Repo | What it is |
 |---|---|
 | [ecommerce-api](https://github.com/AkibUllah/ecommerce-api) | Django REST e-commerce backend: catalog, carts, stock reservation, coupons, bKash/COD checkout and delivery zones. |
-| [nextjs-ecommerce-storefront](https://github.com/AkibUllah/nextjs-ecommerce-storefront) | Next.js 14 App Router storefront with ISR, cart, checkout server actions and English/Bangla i18n. |
-| [pos-offline-first](https://github.com/AkibUllah/pos-offline-first) | Offline-first PWA point of sale with IndexedDB, outbox sync and a FastAPI sync server. |
 | [appointment-booking-system](https://github.com/AkibUllah/appointment-booking-system) | Doctor appointment booking with timezone-aware slot generation, double-booking protection and reminders. |
 | [inventory-forecasting](https://github.com/AkibUllah/inventory-forecasting) | Demand forecasting and reorder-point toolkit for retail POS data with backtesting. |
 
@@ -69,6 +67,10 @@ Every repository below is a complete, runnable project with tests, a Dockerfile 
 |---|---|
 | [agri-field-monitor](https://github.com/AkibUllah/agri-field-monitor) | AWD irrigation monitoring backend with GraphQL API, field geometry, water-level alerts and progress reports. |
 | [django-audit-log](https://github.com/AkibUllah/django-audit-log) | Reusable Django app for field-level audit trails with masking, request context and pruning. |
+
+## Client products
+
+Alongside these public repositories I maintain production products built for clients, including an offline-first point-of-sale system and a Next.js e-commerce storefront with English/Bangla support. Those codebases are private; demos and walkthroughs are available on request.
 
 ## Contact
 
