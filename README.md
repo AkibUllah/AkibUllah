@@ -19,7 +19,23 @@ Senior Full-Stack Engineer in Dhaka, Bangladesh. Six-plus years shipping product
 
 ## Projects
 
-Every repository below is a complete, runnable project with tests, a Dockerfile and CI. They are grouped by the kind of work they demonstrate.
+Every repository below is a complete, runnable project with tests, a Dockerfile and CI. Each one can be tried without cloning:
+
+- **Live demo or API reference** on GitHub Pages, linked from the repo's homepage field.
+- **Open in Codespaces** starts the full stack with demo data in your browser.
+- **Deploy to Render** sets up a free copy of the service in one click.
+
+Frontend apps with live demos: [react-admin-dashboard](https://akibullah.github.io/react-admin-dashboard/), [react-form-builder](https://akibullah.github.io/react-form-builder/), [vue-cloud-console](https://akibullah.github.io/vue-cloud-console/), [bangla-i18n-toolkit playground](https://akibullah.github.io/bangla-i18n-toolkit/), [log analytics report](https://akibullah.github.io/log-analytics-pipeline/).
+
+### SaaS building blocks
+
+| Repo | What it is |
+|---|---|
+| [saas-starter-kit](https://github.com/AkibUllah/saas-starter-kit) | Multi-tenant SaaS starter: FastAPI + Next.js 14, org switcher, team invites, roles, plan entitlements, API keys, billing page. |
+| [saas-subscription-billing](https://github.com/AkibUllah/saas-subscription-billing) | Recurring billing engine: plans, seats, trials, coupons, exact proration, invoices, dunning and MRR/churn metrics. |
+| [feature-flags-service](https://github.com/AkibUllah/feature-flags-service) | Feature flags with targeting rules, sticky percentage rollouts, segments, SSE streaming and Python/TypeScript SDKs. |
+| [notification-service](https://github.com/AkibUllah/notification-service) | Email, SMS, push and in-app notifications with en/bn templates, preferences, quiet hours, digests and provider fallback. |
+| [background-jobs-queue](https://github.com/AkibUllah/background-jobs-queue) | Redis-backed job queue with priorities, cron, retries, dependencies, stalled-job recovery and a React dashboard. |
 
 ### FinTech and payments
 
