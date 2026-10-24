@@ -11,10 +11,11 @@ Senior Full-Stack Engineer in Dhaka, Bangladesh. Six-plus years shipping product
 
 | Area | Tools |
 |---|---|
-| Backend | Python, FastAPI, Django, Django REST Framework, SQLAlchemy, Pydantic, GraphQL (Strawberry) |
+| AI engineering | RAG and retrieval evaluation, tool-calling agents, MCP servers, LLM gateways |
+| Backend | Go, Python, FastAPI, Django, Django REST Framework, SQLAlchemy, Pydantic, GraphQL (Strawberry) |
 | Frontend | TypeScript, React, Next.js, Vue 3, Tailwind CSS, TanStack Query, Zustand, Pinia |
 | Data | PostgreSQL, MySQL, Redis, SQLite, DuckDB, pandas, scikit-learn |
-| Infra | Docker, docker compose, nginx, GitHub Actions, OpenStack, Linux |
+| Infra | Docker, Kubernetes, Helm, Argo CD, nginx, GitHub Actions, OpenStack, Linux |
 | Domains | Payments (bKash, SSLCommerz, Stripe), billing and settlement, KYC, e-commerce and POS, cloud metering, AgriTech |
 
 ## Projects
@@ -25,7 +26,23 @@ Every repository below is a complete, runnable project with tests, a Dockerfile 
 - **Open in Codespaces** starts the full stack with demo data in your browser.
 - **Deploy to Render** sets up a free copy of the service in one click.
 
-Frontend apps with live demos: [react-admin-dashboard](https://akibullah.github.io/react-admin-dashboard/), [react-form-builder](https://akibullah.github.io/react-form-builder/), [vue-cloud-console](https://akibullah.github.io/vue-cloud-console/), [bangla-i18n-toolkit playground](https://akibullah.github.io/bangla-i18n-toolkit/), [log analytics report](https://akibullah.github.io/log-analytics-pipeline/).
+Frontend apps with live demos: [react-admin-dashboard](https://akibullah.github.io/react-admin-dashboard/), [react-form-builder](https://akibullah.github.io/react-form-builder/), [vue-cloud-console](https://akibullah.github.io/vue-cloud-console/), [bangla-i18n-toolkit playground](https://akibullah.github.io/bangla-i18n-toolkit/), [log analytics report](https://akibullah.github.io/log-analytics-pipeline/), [RAG search](https://akibullah.github.io/rag-eval-lab/), [AI support agent](https://akibullah.github.io/ai-support-agent/).
+
+### AI engineering
+
+| Repo | What it is |
+|---|---|
+| [rag-eval-lab](https://github.com/AkibUllah/rag-eval-lab) | Bilingual (English/Bangla) document Q&A with a measured comparison of chunkers and retrievers: recall@k, MRR, nDCG, citation precision. [Live demo](https://akibullah.github.io/rag-eval-lab/) runs search in the browser. |
+| [ai-support-agent](https://github.com/AkibUllah/ai-support-agent) | Tool-calling support agent that looks up orders and issues refunds within policy, with guardrails, prompt-injection screening and a 53-scenario eval suite. [Live demo](https://akibullah.github.io/ai-support-agent/). |
+| [llm-gateway](https://github.com/AkibUllah/llm-gateway) | OpenAI-compatible gateway in front of OpenAI, Anthropic and Ollama: fallback, circuit breakers, caching, virtual keys with budgets, cost tracking and streaming. |
+| [mcp-postgres-analyst](https://github.com/AkibUllah/mcp-postgres-analyst) | Model Context Protocol server giving AI assistants safe read-only database access: SQL validation, row limits, column masking and an audit log. |
+
+### Go and Kubernetes
+
+| Repo | What it is |
+|---|---|
+| [go-api-gateway](https://github.com/AkibUllah/go-api-gateway) | Reverse-proxy API gateway in Go: JWT/JWKS, rate limiting, health-checked load balancing, circuit breakers, hot reload and Prometheus metrics. |
+| [k8s-gitops-platform](https://github.com/AkibUllah/k8s-gitops-platform) | Helm library chart, Argo CD ApplicationSets and OPA policies deploying three of these services, tested end to end on a kind cluster in CI. |
 
 ### SaaS building blocks
 
