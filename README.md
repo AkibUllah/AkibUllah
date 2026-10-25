@@ -1,32 +1,62 @@
 <!-- topics: portfolio, profile -->
-# Hi, I'm Akib Jafor
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Akib Jafor, Senior Full-Stack Engineer" src="assets/banner-light.svg" width="100%">
+</picture>
 
-Senior Full-Stack Engineer in Dhaka, Bangladesh. Six-plus years shipping production systems in FinTech, cloud infrastructure, AgriTech and retail. I build the whole product: Python backends (FastAPI, Django), React / Next.js / Vue frontends in TypeScript, and the Docker, nginx and OpenStack infrastructure underneath.
+<p align="center">
+  <a href="https://akibullah.github.io/portfolio"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-akibullah.github.io-0969da?style=for-the-badge&logo=githubpages&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/akib-jafor"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-akib--jafor-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</p>
 
-- Currently: Sr. Software Engineer at GenNext Technologies, building **Meghna Cloud**, an OpenStack-based cloud platform for Bangladesh.
-- Before that: payment gateways and billing/settlement for mobile financial services and banks, a KYC onboarding system for a bank's mobile app, and AWD irrigation monitoring tools for Japanese agricultural consultants.
-- Portfolio site: https://akibullah.github.io/portfolio
+I'm a senior full-stack engineer in Dhaka with six-plus years shipping production systems in FinTech, cloud infrastructure, AgriTech and retail. I build the whole product: Python and Go backends, React / Next.js / Vue frontends in TypeScript, and the Docker, Kubernetes and OpenStack infrastructure underneath.
 
-## What I work with
+- **Now:** Sr. Software Engineer at GenNext Technologies, building an OpenStack-based cloud platform for Bangladesh: compute, billing, usage metering and multi-tenant auth.
+- **Before:** payment gateways and billing/settlement for mobile financial services and banks, a KYC onboarding system for a bank's mobile app, and AWD irrigation monitoring for Japanese agricultural consultants.
+- **Here:** every repository is a complete, tested project with CI, a live demo or API reference, and one-click Codespaces.
 
-| Area | Tools |
-|---|---|
-| AI engineering | RAG and retrieval evaluation, tool-calling agents, MCP servers, LLM gateways |
-| Backend | Go, Python, FastAPI, Django, Django REST Framework, SQLAlchemy, Pydantic, GraphQL (Strawberry) |
-| Frontend | TypeScript, React, Next.js, Vue 3, Tailwind CSS, TanStack Query, Zustand, Pinia |
-| Data | PostgreSQL, MySQL, Redis, SQLite, DuckDB, pandas, scikit-learn |
-| Infra | Docker, Kubernetes, Helm, Argo CD, nginx, GitHub Actions, OpenStack, Linux |
-| Domains | Payments (bKash, SSLCommerz, Stripe), billing and settlement, KYC, e-commerce and POS, cloud metering, AgriTech |
+<p align="center">
+  <img alt="Tech stack" src="https://skillicons.dev/icons?i=python,go,ts,fastapi,django,react,nextjs,vue,tailwind,postgres,redis,docker,kubernetes,nginx,githubactions,linux&perline=8">
+</p>
+
+## Try these live
+
+No install, no sign-up: each opens a running demo in your browser.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://akibullah.github.io/react-admin-dashboard/"><img alt="E-commerce admin dashboard" src="assets/react-admin-dashboard.png"></a>
+      <b><a href="https://akibullah.github.io/react-admin-dashboard/">E-commerce admin dashboard</a></b><br>
+      React 18, TypeScript, TanStack Query, Recharts on a mocked API. Sign in with <code>admin@shopbd.test</code> / <code>password123</code>.
+      · <a href="https://github.com/AkibUllah/react-admin-dashboard">code</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://akibullah.github.io/rag-eval-lab/"><img alt="RAG evaluation lab" src="assets/rag-eval-lab.png"></a>
+      <b><a href="https://akibullah.github.io/rag-eval-lab/">Bilingual RAG with evaluation</a></b><br>
+      English/Bangla Q&amp;A with cited answers, retrieval running in the browser, and measured recall@k / MRR.
+      · <a href="https://github.com/AkibUllah/rag-eval-lab">code</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://akibullah.github.io/ai-support-agent/"><img alt="AI support agent" src="assets/ai-support-agent.png"></a>
+      <b><a href="https://akibullah.github.io/ai-support-agent/">Tool-calling support agent</a></b><br>
+      Refunds, order tracking and escalation with policy guardrails; every tool call visible. 53/53 eval scenarios pass.
+      · <a href="https://github.com/AkibUllah/ai-support-agent">code</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://akibullah.github.io/vue-cloud-console/"><img alt="Cloud console" src="assets/vue-cloud-console.png"></a>
+      <b><a href="https://akibullah.github.io/vue-cloud-console/">Cloud console</a></b><br>
+      Vue 3 + Pinia tenant console: quotas, launch wizard, volumes, security groups, billing. Any email + 6-char password.
+      · <a href="https://github.com/AkibUllah/vue-cloud-console">code</a>
+    </td>
+  </tr>
+</table>
+
+More demos: [form builder](https://akibullah.github.io/react-form-builder/) · [Bangla i18n playground](https://akibullah.github.io/bangla-i18n-toolkit/) · [log analytics report](https://akibullah.github.io/log-analytics-pipeline/) · API references for every backend on its repo's homepage link.
 
 ## Projects
-
-Every repository below is a complete, runnable project with tests, a Dockerfile and CI. Each one can be tried without cloning:
-
-- **Live demo or API reference** on GitHub Pages, linked from the repo's homepage field.
-- **Open in Codespaces** starts the full stack with demo data in your browser.
-- **Deploy to Render** sets up a free copy of the service in one click.
-
-Frontend apps with live demos: [react-admin-dashboard](https://akibullah.github.io/react-admin-dashboard/), [react-form-builder](https://akibullah.github.io/react-form-builder/), [vue-cloud-console](https://akibullah.github.io/vue-cloud-console/), [bangla-i18n-toolkit playground](https://akibullah.github.io/bangla-i18n-toolkit/), [log analytics report](https://akibullah.github.io/log-analytics-pipeline/), [RAG search](https://akibullah.github.io/rag-eval-lab/), [AI support agent](https://akibullah.github.io/ai-support-agent/).
 
 ### AI engineering
 
@@ -105,7 +135,21 @@ Frontend apps with live demos: [react-admin-dashboard](https://akibullah.github.
 
 Alongside these public repositories I maintain production products built for clients, including an offline-first point-of-sale system and a Next.js e-commerce storefront with English/Bangla support. Those codebases are private; demos and walkthroughs are available on request.
 
+## Activity
+
+<p align="center">
+  <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=AkibUllah&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D">
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AkibUllah/AkibUllah/output/github-contribution-grid-snake-dark.svg">
+  <img alt="Contribution graph snake animation" src="https://raw.githubusercontent.com/AkibUllah/AkibUllah/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
+
 ## Contact
 
 - Portfolio: https://akibullah.github.io/portfolio
+- LinkedIn: https://www.linkedin.com/in/akib-jafor
 - GitHub: https://github.com/AkibUllah
+
+Open to senior backend / full-stack roles and freelance projects in payments, SaaS platforms and AI-backed products.
