@@ -11,7 +11,7 @@
 
 I'm a senior full-stack engineer in Dhaka with six-plus years shipping production systems in FinTech, cloud infrastructure, AgriTech and retail. I build the whole product: Python and Go backends, React / Next.js / Vue frontends in TypeScript, and the Docker, Kubernetes and OpenStack infrastructure underneath.
 
-- **Now:** Sr. Software Engineer at GenNext Technologies, building an OpenStack-based cloud platform for Bangladesh: compute, billing, usage metering and multi-tenant auth.
+- **Now:** Senior Software Engineer building an OpenStack-based cloud platform for Bangladesh: compute, billing, usage metering and multi-tenant auth.
 - **Before:** payment gateways and billing/settlement for mobile financial services and banks, a KYC onboarding system for a bank's mobile app, and AWD irrigation monitoring for Japanese agricultural consultants.
 - **Here:** every repository is a complete, tested project with CI, a live demo or API reference, and one-click Codespaces.
 
