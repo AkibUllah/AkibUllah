@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="https://akibullah.github.io/portfolio"><img alt="Portfolio" src="https://img.shields.io/badge/portfolio-akibullah.github.io-22d3ee?style=flat-square&labelColor=0b1222"></a>
+  <a href="https://scholar.google.com/citations?user=IR_EodgAAAAJ"><img alt="Google Scholar" src="https://img.shields.io/badge/google%20scholar-profile-60a5fa?style=flat-square&labelColor=0b1222"></a>
   <a href="https://doi.org/10.25163/data.7110742"><img alt="Publication" src="https://img.shields.io/badge/publication-Data%20Modeling%202026-fbbf24?style=flat-square&labelColor=0b1222"></a>
   <a href="https://akibullah.github.io/engineering-notes/"><img alt="Engineering Notes" src="https://img.shields.io/badge/blog-engineering%20notes-f472b6?style=flat-square&labelColor=0b1222"></a>
   <a href="https://www.linkedin.com/in/akib-jafor"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-akib--jafor-a78bfa?style=flat-square&labelColor=0b1222"></a>
@@ -187,7 +188,7 @@ Every repository is a complete project with tests, CI, security scanning, releas
 **Early Prediction of Postprandial Glycemic Response in Gestational Diabetes Using Continuous Glucose Monitoring and Gradient Boosting Models**<br>
 **Akib Ullah Jafor**\*, Pronati Das Puja, Shawanti Biswas, Arko Saha, Kamruzzaman Mithu, Khondaker Abdullah-Al-Mamun<br>
 *Data Modeling*, 7(1), 1–7, 2026 · Eman Research · Open access · [doi:10.25163/data.7110742](https://doi.org/10.25163/data.7110742)<br>
-<sub>\* first and corresponding author</sub>
+<sub>\* first and corresponding author · all publications on <a href="https://scholar.google.com/citations?user=IR_EodgAAAAJ">Google Scholar</a></sub>
 
 Gradient boosting models on continuous glucose monitoring and meal data from 235 pregnant participants predict the 120-minute post-meal glucose response with **R² 0.82** (RMSE 0.68 mmol/L). Meal and behavioural context, such as prior meal composition, glycaemic index and meal spacing, outperformed physiology-only baselines.
 
@@ -219,6 +220,7 @@ Deep dives on [Engineering Notes](https://akibullah.github.io/engineering-notes/
 <p>
   <a href="https://akibullah.github.io/portfolio">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/akib-jafor">LinkedIn</a> ·
+  <a href="https://scholar.google.com/citations?user=IR_EodgAAAAJ">Google Scholar</a> ·
   <a href="https://github.com/AkibUllah">GitHub</a>
 </p>
 
