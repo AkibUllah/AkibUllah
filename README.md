@@ -141,10 +141,6 @@ Alongside these public repositories I maintain production products built for cli
   <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=AkibUllah&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D">
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AkibUllah/AkibUllah/output/github-contribution-grid-snake-dark.svg">
-  <img alt="Contribution graph snake animation" src="https://raw.githubusercontent.com/AkibUllah/AkibUllah/output/github-contribution-grid-snake.svg" width="100%">
-</picture>
 
 ## Contact
 
