@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+<title id="t">Akib Jafor — Senior Full-Stack Engineer</title>
+<desc id="d">Building payment systems, cloud platforms, SaaS and AI products with Python, Go and TypeScript.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b14"/><stop offset="1" stop-color="#0b1222"/></linearGradient>
+  <linearGradient id="name" x1="0" x2="1"><stop offset="0" stop-color="#e8eefc"/><stop offset="0.6" stop-color="#e8eefc"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+  <linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  <radialGradient id="g1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+  <radialGradient id="g2"><stop offset="0" stop-color="#a78bfa" stop-opacity="0.55"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#1e2a44" stroke-width="1"/></pattern>
+  <linearGradient id="fadeR" x1="0" x2="1"><stop offset="0.35" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="1"/></linearGradient>
+  <mask id="gridMask"><rect width="1200" height="320" fill="url(#fadeR)"/></mask>
+  <clipPath id="frame"><rect width="1200" height="320" rx="20"/></clipPath>
+  <mask id="type1"><rect class="typer t1" x="64" y="132" width="560" height="40" fill="#fff"/></mask>
+  <mask id="type2"><rect class="typer t2" x="64" y="132" width="560" height="40" fill="#fff"/></mask>
+  <mask id="type3"><rect class="typer t3" x="64" y="132" width="560" height="40" fill="#fff"/></mask>
+</defs>
+<style>
+  .grid{animation:drift 18s linear infinite}
+  @keyframes drift{from{transform:translate(0,0)}to{transform:translate(-36px,-36px)}}
+  .orb{animation:float 9s ease-in-out infinite alternate}
+  .orb2{animation-duration:12s;animation-delay:-4s}
+  @keyframes float{from{transform:translate(0,0)}to{transform:translate(-40px,18px)}}
+  .typer{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:type 15s steps(28,end) infinite}
+  .t2{animation-delay:5s}.t3{animation-delay:10s}
+  @keyframes type{0%{transform:scaleX(0)}10%{transform:scaleX(1)}26%{transform:scaleX(1)}31%{transform:scaleX(0)}100%{transform:scaleX(0)}}
+  .caret{animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .ln{opacity:0;animation:show 12s ease-out infinite}
+  .l2{animation-delay:.9s}.l3{animation-delay:1.8s}.l4{animation-delay:2.7s}.l5{animation-delay:3.6s}
+  @keyframes show{0%{opacity:0;transform:translateY(4px)}6%{opacity:1;transform:none}88%{opacity:1}96%{opacity:0}100%{opacity:0}}
+  .pulse{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{50%{opacity:.35}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}.typer.t1{transform:scaleX(1)}.ln{opacity:1}}
+</style>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <g mask="url(#gridMask)"><rect class="grid" x="0" y="0" width="1300" height="420" fill="url(#grid)"/></g>
+  <circle class="orb" cx="980" cy="70" r="230" fill="url(#g1)"/>
+  <circle class="orb orb2" cx="760" cy="300" r="210" fill="url(#g2)"/>
+</g>
+<rect x="0.5" y="0.5" width="1199" height="319" rx="20" fill="none" stroke="#24324f"/>
+<g font-family="Segoe UI, Inter, Helvetica, Arial, sans-serif">
+  <g transform="translate(64 62)">
+    <circle class="pulse" cx="6" cy="-5" r="5" fill="#34d399"/>
+    <text x="20" y="0" font-size="15" letter-spacing="2" fill="#9aa7c0">OPEN TO SENIOR ROLES &amp; FREELANCE</text>
+  </g>
+  <text x="62" y="120" font-size="58" font-weight="700" fill="url(#name)" letter-spacing="-1">Akib Jafor</text>
+  <g font-size="27" fill="#22d3ee">
+    <text x="64" y="162" mask="url(#type1)">Senior Full-Stack Engineer</text>
+    <text x="64" y="162" mask="url(#type2)">Payments · Billing · Cloud Platforms</text>
+    <text x="64" y="162" mask="url(#type3)">AI Engineering · RAG · Agents</text>
+  </g>
+  <rect x="64" y="186" width="120" height="3" rx="1.5" fill="url(#line)"/>
+  <text x="64" y="226" font-size="18" fill="#9aa7c0">Python · Go · TypeScript · FastAPI · Django · React · Next.js · Vue</text>
+  <text x="64" y="254" font-size="18" fill="#9aa7c0">PostgreSQL · Redis · Docker · Kubernetes · OpenStack</text>
+  <text x="64" y="290" font-size="15" fill="#9aa7c0" opacity=".8">Dhaka, Bangladesh  ·  UTC+6</text>
+</g>
+<g transform="translate(790 56)" font-family="SFMono-Regular, Consolas, Menlo, monospace" font-size="15">
+  <rect width="350" height="208" rx="14" fill="#0b1222" fill-opacity=".86" stroke="#24324f"/>
+  <circle cx="22" cy="22" r="5.5" fill="#ff5f57"/><circle cx="41" cy="22" r="5.5" fill="#febc2e"/><circle cx="60" cy="22" r="5.5" fill="#28c840"/>
+  <text x="200" y="27" font-size="12" fill="#9aa7c0" text-anchor="middle">~/akib</text>
+  <text class="ln" x="22" y="66" fill="#9aa7c0">$ <tspan fill="#e8eefc">make ship</tspan><tspan class="caret" fill="#22d3ee">▍</tspan></text>
+  <text class="ln l2" x="22" y="98" fill="#34d399">✓ <tspan fill="#e8eefc">tests passing in CI</tspan></text>
+  <text class="ln l3" x="22" y="126" fill="#34d399">✓ <tspan fill="#e8eefc">CodeQL · Dependabot</tspan></text>
+  <text class="ln l4" x="22" y="154" fill="#34d399">✓ <tspan fill="#e8eefc">live demo on Pages</tspan></text>
+  <text class="ln l5" x="22" y="182" fill="#34d399">✓ <tspan fill="#e8eefc">released · v0.x</tspan></text>
+</g>
+</svg>

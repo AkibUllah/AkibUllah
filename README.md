@@ -1,25 +1,55 @@
 <!-- topics: portfolio, profile -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Akib Jafor, Senior Full-Stack Engineer" src="assets/banner-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Akib Jafor, Senior Full-Stack Engineer: payments, cloud platforms, SaaS and AI engineering" src="assets/hero-light.svg" width="100%">
 </picture>
 
 <p align="center">
-  <a href="https://akibullah.github.io/portfolio"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-akibullah.github.io-0969da?style=for-the-badge&logo=githubpages&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/akib-jafor"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-akib--jafor-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://akibullah.github.io/portfolio"><img alt="Portfolio" src="https://img.shields.io/badge/portfolio-akibullah.github.io-22d3ee?style=flat-square&labelColor=0b1222"></a>
+  <a href="https://www.linkedin.com/in/akib-jafor"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-akib--jafor-a78bfa?style=flat-square&labelColor=0b1222"></a>
+  <a href="https://github.com/AkibUllah?tab=repositories"><img alt="Projects" src="https://img.shields.io/badge/projects-tested%20%C2%B7%20released%20%C2%B7%20live-34d399?style=flat-square&labelColor=0b1222"></a>
 </p>
 
-I'm a senior full-stack engineer in Dhaka with six-plus years shipping production systems in FinTech, cloud infrastructure, AgriTech and retail. I build the whole product: Python and Go backends, React / Next.js / Vue frontends in TypeScript, and the Docker, Kubernetes and OpenStack infrastructure underneath.
+I build complete products end to end: Python and Go services, TypeScript frontends, and the infrastructure that runs them. Six-plus years across FinTech, cloud platforms, AgriTech and retail.
+
+<table>
+  <tr>
+    <td width="33%" valign="top"><b>💳 Payments &amp; billing</b><br><sub>Gateways, idempotency, double-entry ledgers, settlement, KYC, subscription billing.</sub></td>
+    <td width="33%" valign="top"><b>☁️ Cloud &amp; platform</b><br><sub>Multi-tenant auth, usage metering, rate limiting, job queues, Kubernetes, OpenStack.</sub></td>
+    <td width="33%" valign="top"><b>🧠 AI engineering</b><br><sub>Evaluated RAG, tool-calling agents with guardrails, MCP servers, LLM gateways.</sub></td>
+  </tr>
+</table>
 
 - **Now:** Senior Software Engineer building an OpenStack-based cloud platform for Bangladesh: compute, billing, usage metering and multi-tenant auth.
-- **Before:** payment gateways and billing/settlement for mobile financial services and banks, a KYC onboarding system for a bank's mobile app, and AWD irrigation monitoring for Japanese agricultural consultants.
-- **Here:** every repository is a complete, tested project with CI, a live demo or API reference, and one-click Codespaces.
+- **Before:** payment gateways and billing/settlement for mobile financial services and banks, KYC onboarding for a bank's mobile app, AWD irrigation monitoring for Japanese agricultural consultants.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AkibUllah/AkibUllah/output/metrics-dark.svg">
+  <img alt="GitHub metrics: projects, releases, merged pull requests, contributions and languages" src="https://raw.githubusercontent.com/AkibUllah/AkibUllah/output/metrics-light.svg" width="100%">
+</picture>
 
 <p align="center">
-  <img alt="Tech stack" src="https://skillicons.dev/icons?i=python,go,ts,fastapi,django,react,nextjs,vue,tailwind,postgres,redis,docker,kubernetes,nginx,githubactions,linux&perline=8">
+  <img alt="Tech stack" src="https://skillicons.dev/icons?i=python,go,ts,fastapi,django,react,nextjs,vue,tailwind,postgres,redis,docker,kubernetes,nginx,githubactions,linux&perline=16">
 </p>
 
-## Try these live
+## ✦ Flagship projects
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/AkibUllah/saas-starter-kit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/saas-starter-kit-dark.svg"><img alt="saas-starter-kit" src="assets/cards/saas-starter-kit-light.svg" width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/AkibUllah/rag-eval-lab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/rag-eval-lab-dark.svg"><img alt="rag-eval-lab" src="assets/cards/rag-eval-lab-light.svg" width="100%"></picture></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/AkibUllah/ai-support-agent"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/ai-support-agent-dark.svg"><img alt="ai-support-agent" src="assets/cards/ai-support-agent-light.svg" width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/AkibUllah/fastapi-payment-gateway"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/fastapi-payment-gateway-dark.svg"><img alt="fastapi-payment-gateway" src="assets/cards/fastapi-payment-gateway-light.svg" width="100%"></picture></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/AkibUllah/webhook-relay"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/webhook-relay-dark.svg"><img alt="webhook-relay" src="assets/cards/webhook-relay-light.svg" width="100%"></picture></a></td>
+    <td width="50%"><a href="https://github.com/AkibUllah/go-api-gateway"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/go-api-gateway-dark.svg"><img alt="go-api-gateway" src="assets/cards/go-api-gateway-light.svg" width="100%"></picture></a></td>
+  </tr>
+</table>
+
+## ✦ Try these live
 
 No install, no sign-up: each opens a running demo in your browser.
 
@@ -56,9 +86,12 @@ No install, no sign-up: each opens a running demo in your browser.
 
 More demos: [form builder](https://akibullah.github.io/react-form-builder/) · [Bangla i18n playground](https://akibullah.github.io/bangla-i18n-toolkit/) · [log analytics report](https://akibullah.github.io/log-analytics-pipeline/) · API references for every backend on its repo's homepage link.
 
-## Projects
+## ✦ All projects
 
-### AI engineering
+Every repository is a complete project with tests, CI, security scanning, releases and a live demo, API reference or one-click Codespace.
+
+<details open>
+<summary><b>AI engineering</b> · 4 projects</summary>
 
 | Repo | What it is |
 |---|---|
@@ -67,14 +100,18 @@ More demos: [form builder](https://akibullah.github.io/react-form-builder/) · [
 | [llm-gateway](https://github.com/AkibUllah/llm-gateway) | OpenAI-compatible gateway in front of OpenAI, Anthropic and Ollama: fallback, circuit breakers, caching, virtual keys with budgets, cost tracking and streaming. |
 | [mcp-postgres-analyst](https://github.com/AkibUllah/mcp-postgres-analyst) | Model Context Protocol server giving AI assistants safe read-only database access: SQL validation, row limits, column masking and an audit log. |
 
-### Go and Kubernetes
+</details>
+<details>
+<summary><b>Go and Kubernetes</b> · 2 projects</summary>
 
 | Repo | What it is |
 |---|---|
 | [go-api-gateway](https://github.com/AkibUllah/go-api-gateway) | Reverse-proxy API gateway in Go: JWT/JWKS, rate limiting, health-checked load balancing, circuit breakers, hot reload and Prometheus metrics. |
 | [k8s-gitops-platform](https://github.com/AkibUllah/k8s-gitops-platform) | Helm library chart, Argo CD ApplicationSets and OPA policies deploying three of these services, tested end to end on a kind cluster in CI. |
 
-### SaaS building blocks
+</details>
+<details>
+<summary><b>SaaS building blocks</b> · 5 projects</summary>
 
 | Repo | What it is |
 |---|---|
@@ -84,7 +121,9 @@ More demos: [form builder](https://akibullah.github.io/react-form-builder/) · [
 | [notification-service](https://github.com/AkibUllah/notification-service) | Email, SMS, push and in-app notifications with en/bn templates, preferences, quiet hours, digests and provider fallback. |
 | [background-jobs-queue](https://github.com/AkibUllah/background-jobs-queue) | Redis-backed job queue with priorities, cron, retries, dependencies, stalled-job recovery and a React dashboard. |
 
-### FinTech and payments
+</details>
+<details>
+<summary><b>FinTech and payments</b> · 5 projects</summary>
 
 | Repo | What it is |
 |---|---|
@@ -94,7 +133,9 @@ More demos: [form builder](https://akibullah.github.io/react-form-builder/) · [
 | [webhook-relay](https://github.com/AkibUllah/webhook-relay) | Reliable webhook delivery service: exponential backoff, signatures, circuit breakers, dead-letter queue and replay. |
 | [kyc-onboarding-api](https://github.com/AkibUllah/kyc-onboarding-api) | KYC onboarding workflow with document validation, NID checks, risk scoring, reviewer roles and SLA tracking. |
 
-### Cloud platform and backend infrastructure
+</details>
+<details>
+<summary><b>Cloud platform and backend infrastructure</b> · 8 projects</summary>
 
 | Repo | What it is |
 |---|---|
@@ -107,7 +148,9 @@ More demos: [form builder](https://akibullah.github.io/react-form-builder/) · [
 | [log-analytics-pipeline](https://github.com/AkibUllah/log-analytics-pipeline) | Nginx log parsing, path normalisation, percentiles and anomaly detection into DuckDB, with CLI and HTML reports. |
 | [url-shortener-analytics](https://github.com/AkibUllah/url-shortener-analytics) | URL shortener with expiry, QR codes, Redis-cached redirects and click analytics. |
 
-### E-commerce, retail and bookings
+</details>
+<details>
+<summary><b>E-commerce, retail and bookings</b> · 3 projects</summary>
 
 | Repo | What it is |
 |---|---|
@@ -115,7 +158,9 @@ More demos: [form builder](https://akibullah.github.io/react-form-builder/) · [
 | [appointment-booking-system](https://github.com/AkibUllah/appointment-booking-system) | Doctor appointment booking with timezone-aware slot generation, double-booking protection and reminders. |
 | [inventory-forecasting](https://github.com/AkibUllah/inventory-forecasting) | Demand forecasting and reorder-point toolkit for retail POS data with backtesting. |
 
-### Frontend engineering
+</details>
+<details>
+<summary><b>Frontend engineering</b> · 4 projects</summary>
 
 | Repo | What it is |
 |---|---|
@@ -124,28 +169,33 @@ More demos: [form builder](https://akibullah.github.io/react-form-builder/) · [
 | [vue-cloud-console](https://github.com/AkibUllah/vue-cloud-console) | Vue 3 + Pinia cloud console UI: instance wizard, volumes, security groups, billing. |
 | [bangla-i18n-toolkit](https://github.com/AkibUllah/bangla-i18n-toolkit) | Zero-dependency TypeScript library for Bangla numerals, BDT formatting, dates and phone validation. |
 
-### AgriTech and reusable libraries
+</details>
+<details>
+<summary><b>AgriTech and reusable libraries</b> · 2 projects</summary>
 
 | Repo | What it is |
 |---|---|
 | [agri-field-monitor](https://github.com/AkibUllah/agri-field-monitor) | AWD irrigation monitoring backend with GraphQL API, field geometry, water-level alerts and progress reports. |
 | [django-audit-log](https://github.com/AkibUllah/django-audit-log) | Reusable Django app for field-level audit trails with masking, request context and pruning. |
 
-## Client products
+</details>
 
-Alongside these public repositories I maintain production products built for clients, including an offline-first point-of-sale system and a Next.js e-commerce storefront with English/Bangla support. Those codebases are private; demos and walkthroughs are available on request.
+## ✦ Open source
 
-## Activity
+- **strawberry-graphql/strawberry** · [#4752](https://github.com/strawberry-graphql/strawberry/pull/4752): fix for field arguments named `source` clashing with permission classes and field extensions (open since 2022 as #2139).
+
+## ✦ Activity
 
 <p align="center">
   <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=AkibUllah&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D">
 </p>
 
+## ✦ Contact
 
-## Contact
+<p>
+  <a href="https://akibullah.github.io/portfolio">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/akib-jafor">LinkedIn</a> ·
+  <a href="https://github.com/AkibUllah">GitHub</a>
+</p>
 
-- Portfolio: https://akibullah.github.io/portfolio
-- LinkedIn: https://www.linkedin.com/in/akib-jafor
-- GitHub: https://github.com/AkibUllah
-
-Open to senior backend / full-stack roles and freelance projects in payments, SaaS platforms and AI-backed products.
+Open to senior backend / full-stack roles and freelance projects in payments, SaaS platforms and AI-backed products. Private client work, including an offline-first point of sale and a bilingual storefront, can be demoed on request.
