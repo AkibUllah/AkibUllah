@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="https://akibullah.github.io/portfolio"><img alt="Portfolio" src="https://img.shields.io/badge/portfolio-akibullah.github.io-22d3ee?style=flat-square&labelColor=0b1222"></a>
+  <a href="https://doi.org/10.25163/data.7110742"><img alt="Publication" src="https://img.shields.io/badge/publication-Data%20Modeling%202026-fbbf24?style=flat-square&labelColor=0b1222"></a>
   <a href="https://akibullah.github.io/engineering-notes/"><img alt="Engineering Notes" src="https://img.shields.io/badge/blog-engineering%20notes-f472b6?style=flat-square&labelColor=0b1222"></a>
   <a href="https://www.linkedin.com/in/akib-jafor"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-akib--jafor-a78bfa?style=flat-square&labelColor=0b1222"></a>
   <a href="https://github.com/AkibUllah?tab=repositories"><img alt="Projects" src="https://img.shields.io/badge/projects-tested%20%C2%B7%20released%20%C2%B7%20live-34d399?style=flat-square&labelColor=0b1222"></a>
@@ -17,7 +18,7 @@ I build complete products end to end: Python and Go services, TypeScript fronten
   <tr>
     <td width="33%" valign="top"><b>💳 Payments &amp; billing</b><br><sub>Gateways, idempotency, double-entry ledgers, settlement, KYC, subscription billing.</sub></td>
     <td width="33%" valign="top"><b>☁️ Cloud &amp; platform</b><br><sub>Multi-tenant auth, usage metering, rate limiting, job queues, Kubernetes, OpenStack.</sub></td>
-    <td width="33%" valign="top"><b>🧠 AI engineering</b><br><sub>Evaluated RAG, tool-calling agents with guardrails, MCP servers, LLM gateways.</sub></td>
+    <td width="33%" valign="top"><b>🧠 AI &amp; ML</b><br><sub>Evaluated RAG, tool-calling agents with guardrails, MCP servers, LLM gateways, and published ML research.</sub></td>
   </tr>
 </table>
 
@@ -180,6 +181,15 @@ Every repository is a complete project with tests, CI, security scanning, releas
 | [django-audit-log](https://github.com/AkibUllah/django-audit-log) | Reusable Django app for field-level audit trails with masking, request context and pruning. |
 
 </details>
+
+## ✦ Publications
+
+**Early Prediction of Postprandial Glycemic Response in Gestational Diabetes Using Continuous Glucose Monitoring and Gradient Boosting Models**<br>
+**Akib Ullah Jafor**\*, Pronati Das Puja, Shawanti Biswas, Arko Saha, Kamruzzaman Mithu, Khondaker Abdullah-Al-Mamun<br>
+*Data Modeling*, 7(1), 1–7, 2026 · Eman Research · Open access · [doi:10.25163/data.7110742](https://doi.org/10.25163/data.7110742)<br>
+<sub>\* first and corresponding author</sub>
+
+Gradient boosting models on continuous glucose monitoring and meal data from 235 pregnant participants predict the 120-minute post-meal glucose response with **R² 0.82** (RMSE 0.68 mmol/L). Meal and behavioural context, such as prior meal composition, glycaemic index and meal spacing, outperformed physiology-only baselines.
 
 ## ✦ Writing
 
