@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="https://akibullah.github.io/portfolio"><img alt="Portfolio" src="https://img.shields.io/badge/portfolio-akibullah.github.io-22d3ee?style=flat-square&labelColor=0b1222"></a>
+  <a href="https://akibullah.github.io/engineering-notes/"><img alt="Engineering Notes" src="https://img.shields.io/badge/blog-engineering%20notes-f472b6?style=flat-square&labelColor=0b1222"></a>
   <a href="https://www.linkedin.com/in/akib-jafor"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-akib--jafor-a78bfa?style=flat-square&labelColor=0b1222"></a>
   <a href="https://github.com/AkibUllah?tab=repositories"><img alt="Projects" src="https://img.shields.io/badge/projects-tested%20%C2%B7%20released%20%C2%B7%20live-34d399?style=flat-square&labelColor=0b1222"></a>
 </p>
@@ -179,6 +180,19 @@ Every repository is a complete project with tests, CI, security scanning, releas
 | [django-audit-log](https://github.com/AkibUllah/django-audit-log) | Reusable Django app for field-level audit trails with masking, request context and pruning. |
 
 </details>
+
+## ✦ Writing
+
+Deep dives on [Engineering Notes](https://akibullah.github.io/engineering-notes/): the design decisions, trade-offs and tests behind these projects.
+
+| Article | Project |
+|---|---|
+| [Running webhook workers in parallel without double delivery](https://akibullah.github.io/engineering-notes/posts/parallel-webhook-workers-skip-locked/) | webhook-relay |
+| [Measuring retrieval instead of guessing](https://akibullah.github.io/engineering-notes/posts/measuring-rag-retrieval/) | rag-eval-lab |
+| [Guardrails that don't trust the model](https://akibullah.github.io/engineering-notes/posts/guardrails-that-dont-trust-the-model/) | ai-support-agent |
+| [Five rate-limiting algorithms, one Lua script each](https://akibullah.github.io/engineering-notes/posts/five-rate-limiting-algorithms/) | rate-limiter-service |
+| [Refresh-token rotation with reuse detection, and tenancy in one dependency](https://akibullah.github.io/engineering-notes/posts/refresh-token-rotation-tenant-isolation/) | multi-tenant-saas-auth |
+| [Idempotency keys done properly in a payment API](https://akibullah.github.io/engineering-notes/posts/idempotency-keys-payment-gateway/) | fastapi-payment-gateway |
 
 ## ✦ Open source
 
