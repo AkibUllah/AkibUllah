@@ -1,7 +1,7 @@
 <!-- topics: portfolio, profile -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img alt="Akib Jafor, Senior Full-Stack Engineer: payments, cloud platforms, SaaS and AI engineering" src="assets/hero-light.svg" width="100%">
+  <img alt="Md. Akib Ullah Jafor (Akib Jafor), Senior Full-Stack Engineer in Dhaka, Bangladesh: payments, cloud platforms, SaaS and AI engineering" src="assets/hero-light.svg" width="100%">
 </picture>
 
 <p align="center">
@@ -13,7 +13,7 @@
   <a href="https://github.com/AkibUllah?tab=repositories"><img alt="Projects" src="https://img.shields.io/badge/projects-tested%20%C2%B7%20released%20%C2%B7%20live-34d399?style=flat-square&labelColor=0b1222"></a>
 </p>
 
-I build complete products end to end: Python and Go services, TypeScript frontends, and the infrastructure that runs them. Six-plus years across FinTech, cloud platforms, AgriTech and retail.
+I'm **Md. Akib Ullah Jafor** (Akib Jafor), a senior full-stack engineer in Dhaka, Bangladesh. I build complete products end to end: Python and Go services, TypeScript frontends, and the infrastructure that runs them. Six-plus years across FinTech, cloud platforms, AgriTech and retail.
 
 <table>
   <tr>
