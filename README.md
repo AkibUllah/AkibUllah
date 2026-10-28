@@ -18,7 +18,7 @@ I'm **Md. Akib Ullah Jafor** (Akib Jafor), a senior full-stack engineer in Dhaka
 <table>
   <tr>
     <td width="33%" valign="top"><b>💳 Payments &amp; billing</b><br><sub>Gateways, idempotency, double-entry ledgers, settlement, KYC, subscription billing.</sub></td>
-    <td width="33%" valign="top"><b>☁️ Cloud &amp; platform</b><br><sub>Multi-tenant auth, usage metering, rate limiting, job queues, Kubernetes, OpenStack.</sub></td>
+    <td width="33%" valign="top"><b>☁️ Cloud &amp; platform</b><br><sub>Multi-tenant auth, usage metering, rate limiting, job queues, durable workflows, Kubernetes, OpenStack.</sub></td>
     <td width="33%" valign="top"><b>🧠 AI &amp; ML</b><br><sub>Evaluated RAG, tool-calling agents with guardrails, MCP servers, LLM gateways, and published ML research.</sub></td>
   </tr>
 </table>
@@ -138,10 +138,11 @@ Every repository is a complete project with tests, CI, security scanning, releas
 
 </details>
 <details>
-<summary><b>Cloud platform and backend infrastructure</b> · 8 projects</summary>
+<summary><b>Cloud platform and backend infrastructure</b> · 9 projects</summary>
 
 | Repo | What it is |
 |---|---|
+| [durable-workflow-engine](https://github.com/AkibUllah/durable-workflow-engine) | Durable execution engine: async Python workflows that survive crashes via event-sourced history and deterministic replay, with retries, durable timers, signals and sagas on SQLite or PostgreSQL. |
 | [cloud-usage-metering](https://github.com/AkibUllah/cloud-usage-metering) | Usage ingestion, rating engine with tiered pricing and proration, invoices and budget alerts for cloud resources. |
 | [multi-tenant-saas-auth](https://github.com/AkibUllah/multi-tenant-saas-auth) | Multi-tenant auth service: rotating refresh tokens, RBAC, org-scoped API keys, invitations and rate limiting. |
 | [rate-limiter-service](https://github.com/AkibUllah/rate-limiter-service) | Token bucket, sliding window and GCRA limiters with in-memory and Redis (Lua) backends, plus FastAPI middleware and benchmarks. |
