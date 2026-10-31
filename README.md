@@ -94,7 +94,7 @@ More demos: [form builder](https://akibullah.github.io/react-form-builder/) · [
 Every repository is a complete project with tests, CI, security scanning, releases and a live demo, API reference or one-click Codespace.
 
 <details open>
-<summary><b>AI engineering</b> · 4 projects</summary>
+<summary><b>AI engineering</b> · 5 projects</summary>
 
 | Repo | What it is |
 |---|---|
@@ -102,6 +102,7 @@ Every repository is a complete project with tests, CI, security scanning, releas
 | [ai-support-agent](https://github.com/AkibUllah/ai-support-agent) | Tool-calling support agent that looks up orders and issues refunds within policy, with guardrails, prompt-injection screening and a 53-scenario eval suite. [Live demo](https://akibullah.github.io/ai-support-agent/). |
 | [llm-gateway](https://github.com/AkibUllah/llm-gateway) | OpenAI-compatible gateway in front of OpenAI, Anthropic and Ollama: fallback, circuit breakers, caching, virtual keys with budgets, cost tracking and streaming. |
 | [mcp-postgres-analyst](https://github.com/AkibUllah/mcp-postgres-analyst) | Model Context Protocol server giving AI assistants safe read-only database access: SQL validation, row limits, column masking and an audit log. |
+| [genai-trace-explorer](https://github.com/AkibUllah/genai-trace-explorer) | OpenTelemetry collector and trace viewer for LLM agents: OTLP/HTTP ingest, GenAI semantic conventions, span trees with critical path, token and cost rollups, per-tool error rates, prompt content dropped at ingest. [Live demo](https://akibullah.github.io/genai-trace-explorer/). |
 
 </details>
 <details>
