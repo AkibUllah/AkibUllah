@@ -87,7 +87,7 @@ No install, no sign-up: each opens a running demo in your browser.
   </tr>
 </table>
 
-More demos: [form builder](https://akibullah.github.io/react-form-builder/) · [Bangla i18n playground](https://akibullah.github.io/bangla-i18n-toolkit/) · [log analytics report](https://akibullah.github.io/log-analytics-pipeline/) · [Postgres CDC stream, decoded](https://akibullah.github.io/pg-cdc-relay/) · API references for every backend on its repo's homepage link.
+More demos: [form builder](https://akibullah.github.io/react-form-builder/) · [Bangla i18n playground](https://akibullah.github.io/bangla-i18n-toolkit/) · [log analytics report](https://akibullah.github.io/log-analytics-pipeline/) · [Postgres CDC stream, decoded](https://akibullah.github.io/pg-cdc-relay/) · [what Postgres DDL really locks](https://akibullah.github.io/pg-migration-guard/) · API references for every backend on its repo's homepage link.
 
 ## ✦ All projects
 
@@ -139,12 +139,13 @@ Every repository is a complete project with tests, CI, security scanning, releas
 
 </details>
 <details>
-<summary><b>Cloud platform and backend infrastructure</b> · 10 projects</summary>
+<summary><b>Cloud platform and backend infrastructure</b> · 11 projects</summary>
 
 | Repo | What it is |
 |---|---|
 | [durable-workflow-engine](https://github.com/AkibUllah/durable-workflow-engine) | Durable execution engine: async Python workflows that survive crashes via event-sourced history and deterministic replay, with retries, durable timers, signals and sagas on SQLite or PostgreSQL. |
 | [pg-cdc-relay](https://github.com/AkibUllah/pg-cdc-relay) | Change data capture for PostgreSQL over native logical replication: its own pgoutput decoder, transactional outbox (table or `pg_logical_emit_message`), at-least-once delivery to webhooks and Redis Streams, tested end to end on PostgreSQL 14/16/17. [Live demo](https://akibullah.github.io/pg-cdc-relay/) walks through a real captured stream. |
+| [pg-migration-guard](https://github.com/AkibUllah/pg-migration-guard) | PostgreSQL migration linter with 31 rules, whose lock and rewrite claims are measured on real servers: a probe reads `pg_locks`, detects rewrites and tests blocking from a second connection, and CI checks every claim on PostgreSQL 14/16/17/18. [Live demo](https://akibullah.github.io/pg-migration-guard/) shows what each DDL statement really locks. |
 | [cloud-usage-metering](https://github.com/AkibUllah/cloud-usage-metering) | Usage ingestion, rating engine with tiered pricing and proration, invoices and budget alerts for cloud resources. |
 | [multi-tenant-saas-auth](https://github.com/AkibUllah/multi-tenant-saas-auth) | Multi-tenant auth service: rotating refresh tokens, RBAC, org-scoped API keys, invitations and rate limiting. |
 | [rate-limiter-service](https://github.com/AkibUllah/rate-limiter-service) | Token bucket, sliding window and GCRA limiters with in-memory and Redis (Lua) backends, plus FastAPI middleware and benchmarks. |
